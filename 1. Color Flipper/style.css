@@ -14,11 +14,21 @@ div.currentColor {
   font-weight: bold;
   font-size: 20px;
   letter-spacing: 2px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-top: 400px;
 }
 
 .selectBtn {
   display: block;
   margin: 0 auto;
+  background-color: transparent;
+  color: darkgray;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.selectBtn:hover {
+  color: black;
+  cursor: pointer;
 }
