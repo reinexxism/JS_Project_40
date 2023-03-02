@@ -1,0 +1,54 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0 auto;
+}
+
+body {
+  background-color: lightgray;
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+}
+
+span.cutie {
+  color: darkslategrey;
+}
+
+div#showBox {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+
+span#showNumber {
+  color: darkslategrey;
+  text-align: center;
+  line-height: 300px;
+  font-size: 250px;
+}
+
+input[type="button"].input {
+  width: 150px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 20px;
+  background-color: lightgray;
+  border: 2px solid darkslategrey;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+input[type="button"].input:hover {
+  color: rgb(184, 197, 210);
+  cursor: pointer;
+  background-color: darkslategrey;
+}
