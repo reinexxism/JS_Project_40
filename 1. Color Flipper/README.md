@@ -6,7 +6,7 @@ Color-Flipper는 DOM을 처음 연습하기에 좋은 프로젝트입니다.
 
 ## 2. Main Idea
 
-1. arrays
+1. arrays / 사용X
 
 2. document.getElementById()
 
@@ -16,8 +16,8 @@ Color-Flipper는 DOM을 처음 연습하기에 좋은 프로젝트입니다.
 
 5. document.body.style.backgroundColor()
 
-6. Math.floor()
+6. Math.floor() / 사용 X
 
 7. Math.random()
 
-8. array.length
+8. array.length / 사용X
