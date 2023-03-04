@@ -6,11 +6,17 @@ let count = 0;
 
 function numberUp() {
   count++;
+  if (count > 0) {
+    showNumber.style.color = "#122A22";
+  }
   showNumber.textContent = count;
 }
 
 function numberDown() {
   count--;
+  if (count < 0) {
+    showNumber.style.color = "#5A756D";
+  }
   showNumber.textContent = count;
 }
 
